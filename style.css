@@ -1,0 +1,141 @@
+
+:root {
+  --Yellow: hsl(47, 88%, 63%);
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 50%);
+  --Black: hsl(0, 0%, 7%)
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Figtree", sans-serif;
+  min-height: 100vh;
+  background-color: var(--Yellow);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 1.5rem ;
+  padding-left: 1.5rem ;
+}
+
+
+.card {
+  background-color: white;
+  padding: 2rem;
+  max-width: 400px;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 16px;
+  box-shadow: 14px 14px 10px -2px var(--Black);
+  margin-bottom: 2rem;
+}
+
+
+
+.image-container {
+  margin-bottom: 1rem;
+}
+.illustration-image {
+  max-width: 100%;
+  width: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+  
+}
+
+.small-title {
+  background-color: var(--Yellow);
+  color: var(--Black);
+  display: inline-block;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 14px;
+  padding-right: 14px;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-bottom: 1rem ;
+}
+
+.publication-date {
+  color: var(--Black);
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.big-title a {
+  text-decoration: none;
+  color: var(--Black);
+  font-size: 1.5rem;
+  font-weight: 800;
+  cursor: pointer;
+  transition: color 0.15s;
+}
+
+.big-title > a:hover {
+  color: var(--Yellow);
+}
+
+.big-title {
+  margin-bottom: 1rem ;
+}
+
+.description {
+  color: var(--Grey);
+  line-height: 22px;
+  margin-bottom: 1rem;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.image-container-two {
+  width: 30px;
+  margin-right: 0.5rem;
+}
+
+.author-image {
+  width: 30px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.author-name {
+  flex: 1;
+  font-weight: 800;
+  font-size: 0.8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
